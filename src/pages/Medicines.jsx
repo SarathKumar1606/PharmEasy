@@ -6,7 +6,7 @@ import ironRedSyrup from '../assets/Iron Red Syrup.jpeg';
 import vitamin from '../assets/vitamin c.jpeg';
 import eno from '../assets/eno.jpeg';
 import metformin from '../assets/metformin.jpeg';
-import omeprazole from '../assets/omeprazole.jpeg';
+import omeprazole from '../assets/Omeprazole.jpeg';
 
 function Medicines() {
   const popularProducts = [
