@@ -6,7 +6,7 @@ import cetirizine from "../assets/cetirizine.jpeg";
 import eno from "../assets/eno.jpeg";
 import ironRedSyrup from "../assets/Iron Red Syrup.jpeg";
 import metformin from "../assets/metformin.jpeg";
-import omeprazole from "../assets/omeprazole.jpeg";
+import omeprazole from "../assets/Omeprazole.jpeg";
 import paracetamol from "../assets/paracetamol.jpeg";
 import ibuprofen from "../assets/ibuprofen.jpeg";
 import vitamin from "../assets/vitamin c.jpeg";
