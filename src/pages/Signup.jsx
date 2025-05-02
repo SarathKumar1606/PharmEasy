@@ -1,5 +1,5 @@
 import React from 'react';
-import './Signup.css';//updated cases
+import './signup.css';//updated cases
 import signupImage from '../assets/signup.png'; // Update the path if needed
 
 
