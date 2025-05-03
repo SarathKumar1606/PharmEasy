@@ -15,6 +15,7 @@ import Cart from './pages/Cart';
 import "slick-carousel/slick/slick.css";
 import { useLocation } from 'react-router-dom';
 import "slick-carousel/slick/slick-theme.css";
+import './App.css';
 
 
 // ...
@@ -28,7 +29,7 @@ function App() {
   window.scrollTo(0, 0);
 },[location]);
   return (
-    <div>
+    <div className='app'>
       <NavBar />
       
         <Routes>

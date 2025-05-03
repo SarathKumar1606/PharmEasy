@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import './Cart.css'; 
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
+import './Cart.css';
 
 function Cart() {
   const [cartItems, setCartItems] = useState([]);
@@ -38,11 +39,27 @@ function Cart() {
 
   return (
     <div className="container cart-container">
-      <h2 className="cart-title">Your Cart</h2>
+      
       {cartItems.length === 0 ? (
-        <p className="cart-empty">Your cart is empty.</p>
+        <div className="card-body cart">
+          <div className="col-sm-12 empty-cart-cls text-center">
+            <img
+              src="https://i.imgur.com/dCdflKN.png"
+              width="130"
+              height="130"
+              className="img-fluid mb-4 mr-3"
+              alt="Empty Cart"
+            />
+            <h3 className="cart-title"><strong>Your Cart is Empty</strong></h3>
+            <h4>Add something to make me happy :)</h4>
+            <Link to="/" className="btn btn-primary cart-btn-transform m-3">
+              Continue Shopping
+            </Link>
+          </div>
+        </div>
       ) : (
         <div>
+          <h2 className="cart-title">Your Cart</h2>
           <div className="row">
             {cartItems.map((item) => (
               <div className="col-12 mb-3" key={item.id}>

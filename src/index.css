@@ -3,17 +3,21 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+ 
 }
 
 /* Apply a subtle background color to complement the navbar */
+
 body, html {
   width: 100%;
   height: 100%;
   font-family: 'Poppins', sans-serif; /* You can adjust font-family as per your design */
   overflow-x: hidden;
-  background: linear-gradient(to bottom, #f0f8ff, #e6f0ff); /* Light soft blue gradient */
+  /* Ensures the image covers the entire page */
+ /* Light soft blue gradient */
   color: #333;  /* Dark text color for readability */
 }
+
 
 /* Dark mode settings for the system */
 :root {
