@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import React, { useEffect } from 'react';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
@@ -12,6 +13,7 @@ import Signup from './pages/Signup';
 import ForgotPassword from './pages/ForgotPassword';
 import Cart from './pages/Cart';
 import "slick-carousel/slick/slick.css";
+import { useLocation } from 'react-router-dom';
 import "slick-carousel/slick/slick-theme.css";
 
 
@@ -21,9 +23,12 @@ import "slick-carousel/slick/slick-theme.css";
 
 
 function App() {
+ const location = useLocation();
+ useEffect(() => {
+  window.scrollTo(0, 0);
+},[location]);
   return (
-    
-    <Router>
+    <div>
       <NavBar />
       
         <Routes>
@@ -40,8 +45,7 @@ function App() {
           
         </Routes>
       <Footer />
-    </Router>
-   
+   </div>
   );
 }
 

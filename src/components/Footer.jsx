@@ -1,5 +1,6 @@
 import React from 'react';
 import { Form, Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import pharmacyLogo from '../assets/pharmacy-logo.jpeg';
 import './Footer.css';
 
@@ -34,25 +35,25 @@ function Footer() {
           <div>
             <h4>Company</h4>
             <ul>
-              <li><a href="/about">About Us</a></li>
-              <li><a href="/careers">Careers</a></li>
-              <li><a href="/contact">Contact</a></li>
+              <li><Link to="/about">About Us</Link></li>
+              <li><Link to="/careers">Careers</Link></li>
+              <li><Link to="/contact">Contact</Link></li>
             </ul>
           </div>
           <div>
             <h4>Support</h4>
             <ul>
-              <li><a href="/faq">FAQ</a></li>
-              <li><a href="/privacy">Privacy Policy</a></li>
-              <li><a href="/terms">Terms & Conditions</a></li>
+              <li><Link to="/faq">FAQ</Link></li>
+              <li><Link to="/privacy">Privacy Policy</Link></li>
+              <li><Link to="/terms">Terms & Conditions</Link></li>
             </ul>
           </div>
           <div>
             <h4>Resources</h4>
             <ul>
-              <li><a href="/blog">Health Blog</a></li>
-              <li><a href="/pharmacists">Talk to Pharmacists</a></li>
-              <li><a href="/drugs">Drug Info</a></li>
+              <li><Link to="/blog">Health Blog</Link></li>
+              <li><Link to="/pharmacists">Talk to Pharmacists</Link></li>
+              <li><Link to="/drugs">Drug Info</Link></li>
             </ul>
           </div>
         </div>

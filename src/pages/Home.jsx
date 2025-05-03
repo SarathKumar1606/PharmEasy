@@ -120,7 +120,7 @@ function Home() {
   return (
     <div className="home-wrapper">
      
-      <section>
+  
         <div className="video-container">
           <video className="hero-video" autoPlay loop muted playsInline>
             <source src={medicineVideo} type="video/mp4" />
@@ -134,7 +134,7 @@ function Home() {
             </Button>
           </div>
         </div>
-      </section>
+      
       <hr />
 
    
