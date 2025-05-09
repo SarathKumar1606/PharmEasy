@@ -58,7 +58,8 @@ PharmaCare is a React-based web application designed to provide users with a sea
    git clone https://github.com/SarathKumar1606/PharmEasy.git
    cd pharmeasy
 
-   Scripts
+
+Scripts : 
 npm run dev
 npm run build: Builds the app for production.
 npm run preview: Previews the production build.
